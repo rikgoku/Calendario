@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">   
+    <link rel="stylesheet" href="./styles/estiloprincipal.css"/>
+    
+    <title>Mi calendario</title>
+  </head>
+  <body>
+    <label for="anioId">Año</label>
+    <input type="number" id="anioId" value="2024">  
+    <label for="mesId">Mes: </label>
+    <select id="mesId">
+      <option value="Enero">Enero</option>
+      <option value="Febrero">Febrero</option>
+      <option value="Marzo">Marzo</option>
+      <option value="Abril">Abril</option>
+      <option value="Mayo">Mayo</option>
+      <option value="Junio">Junio</option>
+      <option value="Julio">Julio</option>
+      <option value="Agosto">Agosto</option>
+      <option value="Septiembre">Septiembre</option>
+      <option value="Octubre">Octubre</option>
+      <option value="Noviembre">Noviembre</option>
+      <option value="Diciembre">Diciembre</option>
+    </select>
+    <h1 id="nombreMesId"></h1>
+    <ul id="listaDiasId">  </ul>
+    <script src="./scripts/eventosCalendario.js"></script>
+    <p>&#127836</p>
+  </body>
+</html>
